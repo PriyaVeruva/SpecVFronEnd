@@ -1,6 +1,6 @@
 import axios from "axios";
 import Swal from "sweetalert2";
-const url = "https://specvbackend.onrender.com";
+const url = "https://specvnodejs.onrender.com";
 export const registerForm = (payload, setFormFields, setIsSubmitting) => {
 	axios.post(`${url}/user`, payload)
 		.then((res) => {
