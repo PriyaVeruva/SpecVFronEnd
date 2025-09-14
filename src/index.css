@@ -1,0 +1,82 @@
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+}
+a:hover {
+	color: #535bf2;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #213457;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	outline: none;
+}
+
+button:hover {
+	background-color: #213457;
+	border-color: #213457;
+	box-shadow: 0 4px 10px rgba(51, 51, 255, 0.4);
+}
+
+button:focus,
+button:focus-visible {
+	background-color: #213457;
+	border-color: #213457;
+	box-shadow: 0 0 8px rgba(30, 144, 255, 0.6);
+}
+html {
+	scroll-behavior: smooth;
+}
+a:hover {
+	color: white;
+}
+
+div:where(.swal2-container)
+	button:where(.swal2-styled):where(.swal2-confirm):hover {
+	background-color: #213457 !important;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color: #213547;
+		background-color: #ffffff;
+	}
+
+	button {
+		background-color: #213457;
+	}
+}

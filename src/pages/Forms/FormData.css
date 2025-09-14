@@ -1,0 +1,85 @@
+.forms {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form_wrapper {
+	max-width: 500px;
+	padding: 3rem 2rem;
+	border-radius: 20px;
+	backdrop-filter: blur(15px);
+	background: rgba(255, 255, 255, 0.85); /* Glassmorphism effect */
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+	text-align: center;
+}
+
+.form_wrapper h2 {
+	margin-bottom: 3rem;
+	color: #213457;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.inputs h4 {
+	margin-bottom: 0.5rem;
+	font-size: 1rem;
+	color: #333;
+	text-align: left;
+}
+
+.inputs input {
+	width: 100%;
+	padding: 1rem;
+	border-radius: 12px;
+	border: 1px solid #ccc;
+	outline: none;
+	font-size: 1rem;
+	transition: all 0.3s ease;
+}
+
+.inputs input:hover {
+	border-color: #007bff;
+	box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+.inputs input:focus {
+	border-color: #0056b3;
+	box-shadow: 0 0 10px rgba(0, 86, 179, 0.6);
+}
+
+.error {
+	color: red;
+	font-size: 0.875rem;
+	text-align: left;
+}
+
+button {
+	margin-top: 1.5rem;
+	padding: 1rem 2rem;
+	border-radius: 12px;
+	border: none;
+	background: #232940;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background: #0056b3;
+}
+
+/* Make responsive */
+@media (max-width: 600px) {
+	.form_wrapper {
+		padding: 2rem 1.5rem;
+	}
+}
+.lottie_section {
+	width: 50%;
+}

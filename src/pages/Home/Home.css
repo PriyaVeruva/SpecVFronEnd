@@ -1,0 +1,27 @@
+.home_section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 5vh;
+}
+.video_section video {
+	border-radius: 20px;
+}
+.video_section {
+	width: 40%;
+}
+.text_content {
+	width: 50%;
+	text-align: center;
+}
+.text_content h1,
+.text_content h2 {
+	margin-bottom: 3vh;
+}
+button {
+	padding: 2vh;
+}
+.home_container {
+	padding: 5vh;
+}
